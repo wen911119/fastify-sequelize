@@ -21,7 +21,7 @@ module.exports = {
 }
 ```
 注意: 如果用的是mysql,还需要安装mysql2这个包作为驱动。同理，用其它数据库也要安装对应驱动。
-正确配置后就可以在api和servcie内通过this.db.[数据库名].[model名]获取到model实例子。比如：
+正确配置后就可以在api和servcie内通过this.db.[数据库名].[model名]获取到model实例。比如：
 ```javascript
 this.db.zeus.model.union_bind_relation.findAll({
       raw: true,
