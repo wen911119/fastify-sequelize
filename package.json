@@ -12,7 +12,7 @@
     "sequelize"
   ],
   "author": "wen911119@gmail.com",
-  "license": "ISC",
+  "license": "LGPT",
   "dependencies": {
     "fastify-plugin": "^1.6.0",
     "globby": "^10.0.1",
